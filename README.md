@@ -26,7 +26,7 @@ Add to your webpage:
 ```html
 <script src="bridge.js"></script>
 <!-- or external: -->
-<script src="https://cdn.jsdelivr.net/gh/BitDEVil2K16/cef-bridge@main/bridge.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/BitDEVil2K16/cef-bridge@v1.0.0/bridge.js"></script>
 ```
 
 ---
@@ -209,7 +209,7 @@ Füge das auf deiner Webseite hinzu:
 ```html
 <script src="bridge.js"></script>
 <!-- oder extern: -->
-<script src="https://cdn.jsdelivr.net/gh/BitDEVil2K16/cef-bridge@main/bridge.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/BitDEVil2K16/cef-bridge@v1.0.0/bridge.js"></script>
 ```
 
 ---
