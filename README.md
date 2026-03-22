@@ -22,6 +22,7 @@ Instead of writing platform-specific event handlers for every game client, CEF B
 ## Quick Start
 
 Add to your webpage:
+
 ```html
 <script src="bridge.js"></script>
 <!-- or external: -->
@@ -204,6 +205,7 @@ C# Client  ←  fetch / mp.trigger
 ## Schnellstart
 
 Füge das auf deiner Webseite hinzu:
+
 ```html
 <script src="bridge.js"></script>
 <!-- oder extern: -->
@@ -240,6 +242,7 @@ function showWeather(data) {
 ```
 
 **Daten zurück an den Game-Client senden:**
+
 ```js
 function sendData(name, data) {
     if (typeof mp !== 'undefined') {
@@ -269,6 +272,10 @@ SendNuiMessage(Json.Serialize(new Dictionary<string, object>
     { "args",         new[] { weatherData }          }  // Argumente als Array
 }));
 ```
+
+## Anwendungsbeispiel
+
+-> Siehe [englische Version](#usage-example) für ein vollständiges Beispiel.
 
 ---
 
