@@ -4,7 +4,6 @@
 **Deutsch weiter unten** | [Jump to German version](#deutsch-)
 
 ---
-
 ## What is CEF Bridge?
 
 CEF Bridge is a minimal (~30 lines) but powerful communication layer that lets you build web-based UIs once and use them across multiple game clients without changing your frontend code.
@@ -20,6 +19,16 @@ Instead of writing platform-specific event handlers for every game client, CEF B
 | Browser (Dev) | ✅ | ✅ (console.log) |
 
 ---
+
+---
+## Quick Start
+
+Add to your webpage:
+```html
+<script src="bridge.js"></script>
+<!-- or external: -->
+<script src="https://cdn.jsdelivr.net/gh/BitDEVil2K16/cef-bridge@main/bridge.js"></script>
+```
 
 ## How it works
 
@@ -192,7 +201,15 @@ Deine App (beliebige Webseite — lokales HTML oder externes PHP/ASP)
     ▼
 C# Client  ←  fetch / mp.trigger
 ```
+---
+## Schnellstart
 
+Füge das auf deiner Webseite hinzu:
+```html
+<script src="bridge.js"></script>
+<!-- oder extern: -->
+<script src="https://cdn.jsdelivr.net/gh/BitDEVil2K16/cef-bridge@main/bridge.js"></script>
+```
 ---
 
 ## Installation
