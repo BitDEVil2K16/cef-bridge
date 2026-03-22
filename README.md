@@ -19,8 +19,6 @@ Instead of writing platform-specific event handlers for every game client, CEF B
 | Browser (Dev) | ✅ | ✅ (console.log) |
 
 ---
-
----
 ## Quick Start
 
 Add to your webpage:
@@ -30,6 +28,7 @@ Add to your webpage:
 <script src="https://cdn.jsdelivr.net/gh/BitDEVil2K16/cef-bridge@main/bridge.js"></script>
 ```
 
+---
 ## How it works
 
 ```
@@ -210,8 +209,8 @@ Füge das auf deiner Webseite hinzu:
 <!-- oder extern: -->
 <script src="https://cdn.jsdelivr.net/gh/BitDEVil2K16/cef-bridge@main/bridge.js"></script>
 ```
----
 
+---
 ## Installation
 
 ### 1. App-Seite einrichten
